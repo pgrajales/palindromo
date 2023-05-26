@@ -1,8 +1,10 @@
 package src
 
-import "math"
+import (
+	"math"
+)
 
-func IsPalindrome(x int) bool {
+func IsPalindrome(x int64) bool {
 
 	if x < 0 {
 		return false
@@ -15,7 +17,7 @@ func IsPalindrome(x int) bool {
 	return xReversed == x
 }
 
-func reverse(x int) int {
+func reverse(x int64) int64 {
 	sign := "positive"
 	if x >= 0 {
 		sign = "positive"
@@ -23,9 +25,9 @@ func reverse(x int) int {
 		sign = "negative"
 	}
 
-	x = int(math.Abs(float64(x)))
+	x = int64(math.Abs(float64(x)))
 
-	var reversedDigit int
+	var reversedDigit int64
 
 	for x > 0 {
 		lastDigit := x % 10
