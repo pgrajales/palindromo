@@ -7,7 +7,7 @@ Palindromo
 <p>Un integer es un palindromo si se lee igual de derecha a izquierda que de izquierda a derecha.</p>
 
 <h2> Tecnología utilizada </h2>
-<p> Go 1.9 </p>
+<p> Go 1.19 </p>
 
 <h2> Como ejecutar </h2>
 
